@@ -1,0 +1,6 @@
+<template name="chatShow">
+	{{#each posts}}
+		<b>{{name _uid}}:</b> <p>{{ content }}</p> 
+	{{/each}}
+	{{>chatCreate }}
+</template>
